@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Secrets
+.env
+*.pem
+
+# Docker
+*.log
+.dockerignore
+
+# OS
+.DS_Store
