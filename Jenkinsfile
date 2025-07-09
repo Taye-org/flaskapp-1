@@ -4,7 +4,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "your-dockerhub-username/${env.JOB_BASE_NAME}"
+        DOCKER_IMAGE = "taye97/${env.JOB_BASE_NAME}"
         DOCKER_CREDENTIALS_ID = 'dockerhub-creds'
         APP_ENV = 'production'
     }
