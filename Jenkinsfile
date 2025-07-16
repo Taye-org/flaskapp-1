@@ -1,7 +1,7 @@
 @Library('jenkins-shared-lib') _
 
 pipeline {
-    agent any
+    agent { label 'docker' }
 
     environment {
         DOCKER_IMAGE = "taye97/flask-app-1"
